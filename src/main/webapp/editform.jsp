@@ -27,8 +27,6 @@
 	<tr><td>Department:</td><td><input type="text" name="department" value="<%= u.getDepartment()%>"/></td></tr>
 	<tr><td>Hobby:</td><td><input type="text" name="hobby" value="<%= u.getHobby()%>" /></td></tr>
 	<tr><td>Religion:</td><td><input type="text" name="religion" value="<%= u.getReligion()%>"/></td></tr>
-	<tr><td>Favorite Food:</td><td><input type="text" name="favorite_food" value="<%= u.getFood()%>"/></td></tr>
-	<tr><td>Favorite Juice:</td><td><input type="text" name="favorite_juice" value="<%= u.getJuice()%>"/></td></tr>
 
 <tr><td colspan="2"><input type="submit" value="Edit Post"/>
 <input type="button" value="Cancel" onclick="history.back()"/></td></tr>
