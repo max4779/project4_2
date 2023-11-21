@@ -53,8 +53,6 @@
 	<th>Department</th>
 	<th>Hobby</th>
 	<th>Religion</th>
-	<th>Favorite Food</th>
-	<th>Favorite Juice</th>
 	<th>Regdate</th>
 	<th>Edit</th>
 	<th>Delete</th>
@@ -70,8 +68,6 @@
 		<td>${u.getDepartment()}</td>
 		<td>${u.getHobby()}</td>
 		<td>${u.getReligion()}</td>
-		<td>${u.getFood()}</td>
-		<td>${u.getJuice()}</td>
 		<td>${u.getRegdate()}</td>
 		<td><a href="editform.jsp?id=${u.getSeq()}">Edit</a></td>
 		<td><a href="javascript:delete_ok('${u.getSeq()}')">Delete</a></td>
